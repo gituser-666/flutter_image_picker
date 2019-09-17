@@ -19,7 +19,14 @@ Add the following keys to your _Info.plist_ file, located in `<project root>/ios
 * `NSCameraUsageDescription` - describe why your app needs access to the camera. This is called _Privacy - Camera Usage Description_ in the visual editor.
 * `NSMicrophoneUsageDescription` - describe why your app needs access to the microphone, if you intend to record videos. This is called _Privacy - Microphone Usage Description_ in the visual editor.
 
-### Android
+### Android 引用
+```dart
+dependencies:
+  image_picker:
+    git:
+      url: git@github.com:wei3/flutter_image_picker.git
+      ref: master
+````
 
 No configuration required - the plugin should work out of the box.
 
